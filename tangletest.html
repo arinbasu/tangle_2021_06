@@ -1,0 +1,12 @@
+<html>
+<head>
+var tangle = new Tangle(document, {
+    initialize: function () { this.cookies = 3; },
+    update:     function () { this.calories = this.cookies * 50; }
+});
+</head>
+
+When you eat <span data-var="cookies" class="TKAdjustableNumber"> cookies</span>,
+you consume <span data-var="calories"> calories</span>.
+
+</html>
